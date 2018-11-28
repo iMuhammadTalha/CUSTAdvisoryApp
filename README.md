@@ -1,2 +1,2 @@
 # CUSTAdvisoryApp
-CUST Advisory Android App
+CUST Advisory Android App.
