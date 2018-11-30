@@ -1,5 +1,17 @@
 # CUSTAdvisoryApp
 
+
+App File Name:	CUST Advisory
+Team Name:	CUST Advisory Developers
+Short Description:	Cust advisory - easiness for faculty to perform advisory tasks
+Country:	Pakistan
+Author:	iMuhammadTalha (https://github.com/iMuhammadTalha)
+
+
+CUST Advisory Promo Video (https://www.youtube.com/watch?v=UOz93yFlW7I&feature=youtu.be)
+
+
+
 1.	Introduction
 In most institutions of higher education, faculty members are required to assume the role of academic advisor. Greater interest in advising has developed because of the growing complexity of higher education institutions, because of the ever increasing threat of declining enrollment, and because of the diversity of the students enrolling in the universities. Once viewed as a set of scheduling procedures, academic advising programs have been established to assist students in the development of their human potential.
 
