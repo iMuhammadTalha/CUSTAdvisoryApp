@@ -7,6 +7,8 @@ Team Name:	CUST Advisory Developers
 
 Short Description:	Cust advisory - easiness for faculty to perform advisory tasks
 
+License: Apache License Version 2.0, January 2004
+
 Country:	Pakistan
 
 Author:	iMuhammadTalha (https://github.com/iMuhammadTalha)
