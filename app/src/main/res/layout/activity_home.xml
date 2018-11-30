@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundmainscreen"
+    tools:context=".HomeActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:radius="2dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:src="@drawable/custlogo" />-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4"
+            android:paddingTop="7dp"
+            android:src="@drawable/custlogo"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/cust0" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/linearLayout2"
+        android:gravity="bottom">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Head Advisor Login"
+            android:id="@+id/buttonHeadAdvisor"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_border"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Advisor Login"
+            android:id="@+id/buttonAdvisor"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_border"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Student Login"
+            android:textAllCaps="false"
+            android:id="@+id/buttonStudent"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_border"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="@string/copyrights"
+        android:textColor="@color/pureBlack"
+        android:textSize="10dp" />
+
+</LinearLayout>

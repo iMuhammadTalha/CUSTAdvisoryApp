@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.custadvisroyapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    //Permission must be added to use API
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cust"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/custapplogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".StudentLoginActivity" />
+        <activity android:name=".StudentSignupActivity" />
+        <activity android:name=".AdvisorLoginActivity" />
+        <activity android:name=".AdvisorSignupActivity" />
+        <activity android:name=".HeadAdvisorHome" />
+        <activity android:name=".AdvisorHome" />
+        <activity android:name=".StudentHome" />
+        <activity android:name=".HeadAdvisorAllStudents" />
+        <activity android:name=".HeadAdvisorCSStudents" />
+        <activity android:name=".HeadAdvisorSEStudents" />
+        <activity android:name=".Advisor_AllStudents" />
+        <activity android:name=".HeadAdvisorAllAdvisors" />
+        <activity android:name=".HeadAdvisorCSAdvisors" />
+        <activity android:name=".HeadAdvisorSEAdvisors" />
+        <activity android:name=".HeadAdvisorAnnouncements" />
+        <activity android:name=".StudentAdvisor" />
+        <activity android:name=".AdvisorHomes" />
+        <activity android:name=".HeadAdvisorHomes" />
+        <activity android:name=".StudentHomes" />
+        <activity android:name=".StudentAnnouncements" />
+        <activity android:name=".AdvisorHeadAdvisorAnnouncements" />
+        <activity android:name=".AdvisorStudentAnnouncements" />
+        <activity android:name=".AdvisorStudentPreviousAnnouncements" />
+        <activity android:name=".HeadAdvisorPreviousAnnoucements" />
+        <activity android:name=".HeadAdvisorUnApproveAdvisors" />
+        <activity android:name=".HeadAdvisorApproveAdvisor" />
+        <activity android:name=".HeadAdvisorUploadStudentsData" />
+        <activity android:name=".HeadAdvisorAdvisorDetails" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".HeadAdvisorLoginActivity" />
+        <activity android:name=".AdvisorDeleteAnnouncements" />
+        <activity android:name=".AdvisorStudentDetails" />
+        <activity android:name=".HeadAdvisorDeleteAnnouncements" />
+        <activity android:name=".HeadAdvisorStudentDetails"></activity>
+    </application>
+
+</manifest>

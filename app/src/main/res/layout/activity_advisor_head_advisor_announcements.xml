@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvisorHeadAdvisorAnnouncements">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAdvisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="Head Advisor Announcements"
+        android:layout_gravity="center"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp" />
+
+
+    <ListView
+        android:id="@+id/HeadAdvisorAnnouncementsList"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyrights"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/pureBlack"
+        android:layout_gravity="center"
+        android:layout_below="@+id/HeadAdvisorAnnouncementsList"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

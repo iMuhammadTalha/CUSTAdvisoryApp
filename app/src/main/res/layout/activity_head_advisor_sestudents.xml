@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeadAdvisorSEStudents">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHeadAdvisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="SE Students"
+        android:layout_gravity="center"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/Titles"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="90dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvsRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:text="Reg No"
+            />
+
+        <TextView
+            android:id="@+id/tvsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="Name"
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="22"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:text="Phone"
+
+            />
+
+        <TextView
+            android:id="@+id/tvsCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="27"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:text="CGPA"
+            android:layout_marginLeft="6dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/SEStudentsList"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/Titles" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyrights"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/pureBlack"
+        android:layout_gravity="center"
+        android:layout_below="@+id/SEStudentsList"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

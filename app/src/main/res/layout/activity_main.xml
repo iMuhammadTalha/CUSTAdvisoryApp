@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backgrounds"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<ImageView-->
+            <!--android:layout_width="180dp"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:id="@+id/bouncyimage"-->
+            <!--android:src="@drawable/cust"-->
+            <!--android:layout_above="@+id/bouncy"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4"
+            android:paddingTop="7dp"
+            android:src="@drawable/custlogo"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/bouncy"
+            android:fontFamily="sans-serif-black"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

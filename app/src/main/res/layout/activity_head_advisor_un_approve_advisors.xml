@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeadAdvisorUnApproveAdvisors">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHeadAdvisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="UnApprove Advisor"
+        android:layout_gravity="center"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/Titles"
+        android:orientation="horizontal"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_marginTop="90dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvsRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:text="Name"
+            />
+
+        <TextView
+            android:id="@+id/tvsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:text="Designation"
+            />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:text="Department"
+
+            />
+
+        <TextView
+            android:id="@+id/tvsCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:text="Phone"
+            />
+
+        <TextView
+            android:id="@+id/tvsCHr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:text="Email"
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/HeadAdvisorUnApproveList"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_below="@+id/Titles"/>
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyrights"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/pureBlack"
+        android:layout_gravity="center"
+        android:layout_below="@+id/HeadAdvisorUnApproveList"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StudentSignupActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_alignParentTop="true"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/RegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/imageView8"
+        android:ems="10"
+        android:hint="Registration no. "
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgemail"
+        android:layout_marginStart="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:layout_toEndOf="@+id/imgemail"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView8"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/RePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/buttonStudentSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/blue_btn_drawable"
+        android:text="SIGNUP"
+        android:textColorHint="#ffffff" />
+
+
+    <ImageView
+        android:id="@+id/imgfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/email"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/user" />
+
+
+    <ImageView
+        android:id="@+id/imgemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView9"
+        android:layout_toEndOf="@+id/textView5"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Password"
+        android:layout_alignEnd="@+id/imglname"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/repass" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegNo"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="57dp"
+        android:layout_toEndOf="@+id/Password"
+        app:srcCompat="@drawable/repass" />
+
+
+    <TextView
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStudentSignup"
+        android:layout_centerHorizontal="true"
+        android:text="Already Account? Login Here."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+</RelativeLayout>
