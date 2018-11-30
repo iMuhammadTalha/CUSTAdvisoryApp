@@ -2,11 +2,14 @@
 
 
 App File Name:	CUST Advisory
-Team Name:	CUST Advisory Developers
-Short Description:	Cust advisory - easiness for faculty to perform advisory tasks
-Country:	Pakistan
-Author:	iMuhammadTalha (https://github.com/iMuhammadTalha)
 
+Team Name:	CUST Advisory Developers
+
+Short Description:	Cust advisory - easiness for faculty to perform advisory tasks
+
+Country:	Pakistan
+
+Author:	iMuhammadTalha (https://github.com/iMuhammadTalha)
 
 CUST Advisory Promo Video (https://www.youtube.com/watch?v=UOz93yFlW7I&feature=youtu.be)
 
