@@ -69,6 +69,7 @@ As each student will be allocated an Advisor at the start of their studies and e
 •	Android Studio is used as the desired tool to develop the application.
 •	Database used is MySQL.
 •	Business logic in Java Language.
+•	Rest API is in PHP Script.
 
 8	Overall working of the project
 Basic working of project to be developed is following:
@@ -83,3 +84,8 @@ Basic working of project to be developed is following:
 •	Students can view announcements of their advisors.
 •	Students can view their advisor information.
 
+
+NOTE:-
+Database folder contain MySQL DataBase.
+RestAPI folder contain all API files that used by app.
+release folder contain executable file (app-release.apk) of APP. 
